@@ -3,7 +3,7 @@
 # Date: May 31, 2025
 
 # Import libraries
-import os as pd
+import os
 from dotenv import load_dotenv
 import pandas as pd
 import requests
@@ -64,5 +64,6 @@ def get_days_of_apod():
 
 # Save the dataframe
 data = get_days_of_apod()
+df = pd.DataFrame(data)
 PATH = os.path.join('data', 'astronomic_album.csv')
 df.to_csv(path_or_buf=PATH, index=False)

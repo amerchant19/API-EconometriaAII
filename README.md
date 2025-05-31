@@ -16,6 +16,7 @@ More: [https://apod.nasa.gov/apod/archivepix.html](https://apod.nasa.gov/apod/li
 ## About this Repo
 
 To get started, you’ll need an API key from NASA. You can request one here: [https://api.nasa.gov](https://api.nasa.gov)
+
 You need to create a file .env where you can save your own API KEY
 
 The aim of this project is to collect the following data for each of the last 1,000 days:
